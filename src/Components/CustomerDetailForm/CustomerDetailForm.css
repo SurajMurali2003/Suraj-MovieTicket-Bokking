@@ -1,0 +1,61 @@
+.form-container {
+  max-width: 600px;
+  height: 450px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 0px;
+  font-weight: bold;
+}
+
+.form-group input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-group select {
+  border-color: #007bff;
+  outline: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.submit-button {
+  width: 30%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #001eb3;
+}

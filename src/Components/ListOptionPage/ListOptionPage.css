@@ -1,0 +1,35 @@
+.list-option-page {
+  max-width: 1000px;
+  max-height: 900;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.list-option-page h2 {
+  margin-bottom: 15px;
+}
+
+.list-option-page h3 {
+  margin-bottom: 10px;
+}
+
+.selection-list li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 400px;
+}
+
+.movie-or-theaer {
+  font-size: 25px;
+  color: red;
+}
+.movie-or-theaer1 {
+  font-size: 45px;
+  color: darkblue;
+}
