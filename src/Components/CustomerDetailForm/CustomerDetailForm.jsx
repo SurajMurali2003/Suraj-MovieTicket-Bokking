@@ -8,7 +8,7 @@ const CustomerDetailForm = () => {
   const navigate = useNavigate();
 
   const [locationList] = useState(locationData);
-  const { inputDetail, setInputDetail } = useContext(userDetailContext);
+  const {inputDetail, setInputDetail } = useContext(userDetailContext);
 
   function handleInput(event) {
     const name = event.target.name;
@@ -20,7 +20,14 @@ const CustomerDetailForm = () => {
 
   function submitData() {
     console.log(inputDetail);
-    navigate("/SelectionPage");
+    
+    if(!inputDetail.Name || !inputDetail.Email || !inputDetail.Mobile || !inputDetail.Date || !inputDetail.Tickets || inputDetail.Location === ""){
+      alert("Please enter all the details")
+    }
+    else{
+      navigate("/SelectionPage");
+
+    }
   }
 
   return (

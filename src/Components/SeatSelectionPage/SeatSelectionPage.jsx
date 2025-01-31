@@ -15,8 +15,9 @@ const SeatSelectionPage = () => {
   const handleSeat = (seat) => {
     if (!seat.available) return;
     setSelectedSeats((preval) => {
-      const isSeatSelected = preval.includes(seat.number);
-      if (isSeatSelected) {
+      const isSeatslected = preval.includes(seat.number);
+
+      if (isSeatslected) {
         return preval.filter((seatNumber) => seatNumber !== seat.number);
       } else {
         return [...preval, seat.number];
